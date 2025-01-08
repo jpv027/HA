@@ -198,7 +198,7 @@ action:
     sequence: !input dimmer_down_hold
   - conditions: '{{ button_id == "002" and press_count == "KeyReleased" }}'
     sequence: !input dimmer_down_release
-  - conditions: '{{ button_id == "003" and press_count == "KeyPressed" }}'
+  - conditions: '{{ button_id == "003" and press_count == "0" }}'
     sequence: !input relay_1x
   - conditions: '{{ button_id == "003" and press_count == "KeyPressed2x" }}'
     sequence: !input relay_2x
