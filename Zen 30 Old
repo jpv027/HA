@@ -1,4 +1,5 @@
-  name: Zooz ZEN30
+Blueprint:
+name: Zooz ZEN30
   description: Automations helper for the Zooz ZEN30 Double Switch using the
     Zwave JS integration.
   domain: automation
